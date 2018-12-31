@@ -18,7 +18,6 @@ class AddActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add)
         mtoolBar = findViewById(R.id.toolBar);
-        mtoolBar?.subtitle="enes"
 
 
         ivBack = mtoolBar?.findViewById(R.id.ivBack)
